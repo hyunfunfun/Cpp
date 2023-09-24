@@ -3,9 +3,10 @@
 
 int main() {
 
-	Date day;
+	Date day(2023, 9, 24);//생성자
 
-	day.SetDate(2023, 9, 24);
+	//setdate삭제
+
 	day.ShowDate();
 
 	day.AddDay(30);
@@ -14,11 +15,9 @@ int main() {
 	day.AddDay(2000);
 	day.ShowDate();
 
-	day.SetDate(2012, 1, 31);  // 윤년
 	day.AddDay(29);
 	day.ShowDate();
 
-	day.SetDate(2012, 8, 4);
 	day.AddDay(2500);
 	day.ShowDate();
 

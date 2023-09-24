@@ -7,6 +7,11 @@ class Date {
 	int day_;
 
 public:
+	Date(int year, int month, int day) {
+		year_ = year;
+		month_ = month;
+		day_ = day;
+	}
 	void SetDate(int year, int month, int date);
 	void AddDay(int inc);
 	void AddMonth(int inc);

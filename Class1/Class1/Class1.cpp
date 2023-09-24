@@ -1,11 +1,8 @@
 #include "Header.h"
 #include "Class1.h"
 
-void Date::SetDate(int year, int month, int day) {
-	year_ = year;
-	month_ = month;
-	day_ = day;
-}
+
+//setdate삭제
 void Date::AddDay(int inc) {
     while (true) {
         // 현재 달의 총 일 수

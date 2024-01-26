@@ -8,7 +8,10 @@ int func(int);
 
 int main() {
 
-	cout << func << endl;
+	int (*pf)(int);
+	pf = func; // pf에 함수의 주소 저장
+
+	cout << (*pf)(3) << endl;
 
 	return 0;
 }

@@ -15,13 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="func-struct.cpp">
+    <ClCompile Include="func2-struct.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="fun-pointer.cpp">
+    <ClCompile Include="fun1-pointer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="func-inline.cpp">
+    <ClCompile Include="func3-inline.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="func4-defalt parameter.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -2,16 +2,26 @@
 
 using namespace std;
 
-void print(char, int);
-void print(int, int);
-void print(char);
+int sum(int, int);
+float sum(float, float);
 
 int main() {
-	//함수 오버로딩 : 여러개의 함수를 같은 이름으로 연결 // 같은동작을 수행하지만 다른 데이터 형이 필요할때
-	print('a', 3);
-	print(3, 2);
-	print('a');
 
+	cout << "두 정수를 입력하시오.\n";
+	int a, b;
+	cin >> a >> b;
+	cout << "두 정수의 합은 " << sum(a, b) << "입니다.\n";
+	cout << "두 정수를 입력하시오.\n";
+	float c, d;
+	cin >> c >> d;
+	cout << "두 정수의 합은 " << sum(c, d) << "입니다.\n";
 
 	return 0;
+}
+
+int sum(int a, int b) {
+	return a + b;
+}
+float sum(float a, float b) {
+	return a + b;
 }

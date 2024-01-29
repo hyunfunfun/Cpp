@@ -5,6 +5,15 @@ using namespace std;
 int sum(int, int);
 float sum(float, float);
 
+/*
+1.
+int sum(int, int);
+float sum(int, int); 와 같이 같은 매개변수를 사용하는것은 x
+
+2. 함수를 사용할 떄, 두개 이상의 함수에 대응되는 경우 x
+
+*/
+
 int main() {
 
 	cout << "두 정수를 입력하시오.\n";

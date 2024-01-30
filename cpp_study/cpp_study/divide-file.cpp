@@ -1,4 +1,6 @@
 #include "divide-file.h"
+#include "divide-file-new.h"
+
 
 int main() {
 	MyStruct Panda = {
@@ -9,9 +11,4 @@ int main() {
 	display(Panda);
 	return 0;
 
-}
-
-void display(MyStruct& temp) {
-	cout << "이름 : " << temp.name << endl;
-	cout << "나이 : " << temp.age << endl;
 }

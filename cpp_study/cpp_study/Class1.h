@@ -8,6 +8,8 @@ using namespace std;
 2. 클래스 매서드 정의
 */
 
+//생성자, 파괴자
+
 class Stock {
 private:
 	string name;
@@ -19,11 +21,12 @@ private:
 	}
 
 public:
-	void acquire(string, int, float);
+	//void acquire(string, int, float); 생성자 사용을 위해 사용 x
 	void buy(int, float);
 	void sell(int, float);
 	void update(float);
 	void show();
+	Stock(string, int, float);
 	Stock();
 	~Stock();
 };

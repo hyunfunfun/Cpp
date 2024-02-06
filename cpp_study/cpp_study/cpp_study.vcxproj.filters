@@ -48,6 +48,9 @@
     <ClCompile Include="Class1-func.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="func-reference2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="divide-file.h">

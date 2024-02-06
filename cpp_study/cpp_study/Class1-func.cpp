@@ -28,6 +28,12 @@ void Stock::show() {
 
 }
 
+Stock Stock::topval(Stock& s) {
+	if (s.share_val > share_val)
+		return s;
+	else return *this; //자기 자신(객체)을 리턴
+}
+
 Stock::Stock(string co, int n, float pr) {//생성자
 	name = co;
 	shares = n;

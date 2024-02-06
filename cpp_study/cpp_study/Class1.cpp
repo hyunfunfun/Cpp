@@ -2,14 +2,14 @@
 
 int main() {
 
-	Stock s1("A", 10, 1000);
-	Stock s2("B", 20, 1200);
+	Stock s[4] = {
+		Stock("A",10,1000),
+		Stock("B",20,1200),
+		Stock("C",20,1200),
+		Stock("D",20,1200)
+	};
 
-	s1.show();
-	s2.show();
-
-	cout << "A와 B중 share_val이 큰 객체는\n";
-	s2.topval(s1).show();
+	s[0].show();
 
 	return 0;
 }

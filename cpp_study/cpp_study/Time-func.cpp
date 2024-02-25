@@ -28,9 +28,9 @@ Time Time::operator+(Time& t) {
 	return sum;
 }
 
-Time operator*(int n, Time& t) {
+Time Time::operator*(int n) {
 	Time result;
-	long resultMin = t.hours * n * 60 + t.mins * n;
+	long resultMin = hours * n * 60 + mins * n;
 	result.hours = resultMin / 60;
 	result.mins = resultMin % 60;
 	return result;

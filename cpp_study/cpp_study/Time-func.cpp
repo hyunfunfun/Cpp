@@ -28,6 +28,14 @@ Time Time::operator+(Time& t) {
 	return sum;
 }
 
+Time operator*(int n, Time& t) {
+	Time result;
+	long resultMin = t.hours * n * 60 + t.mins * n;
+	result.hours = resultMin / 60;
+	result.mins = resultMin % 60;
+	return result;
+}
+
 void Time::show() {
 	std::cout << "½Ã°£ : " << hours << std::endl;
 	std::cout << "ºÐ : " << mins << std::endl;

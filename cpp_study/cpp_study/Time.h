@@ -13,4 +13,5 @@ public:
 	void addMins(int);
 	Time operator+(Time&);
 	void show();
+	friend Time operator*(int, Time&);
 };

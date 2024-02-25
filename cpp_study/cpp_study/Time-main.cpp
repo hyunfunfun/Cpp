@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-	Time day1(1, 40);
+	/*Time day1(1, 40);
 	Time day2(2, 30);
 	
 	day1.show();
@@ -18,7 +18,15 @@ int main() {
 
 
 	total.show();
-	total2.show();
+	total2.show();*/
+
+	//friend
+	Time t1(1, 20);
+	Time t2;
+
+	t2 = 3 * t1;
+	//t1 = operator*(3, t1);
+	t2.show();
 
 	return 0;
 }

@@ -27,6 +27,7 @@ int main() {
 	t2 = 3 * t1;
 	//t1 = operator*(3, t1);
 	t2.show();
+	cout << t2;
 
 	return 0;
 }

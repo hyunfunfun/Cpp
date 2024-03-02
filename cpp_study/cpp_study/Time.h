@@ -17,4 +17,5 @@ public:
 	friend Time operator*(int n, Time& t) {
 		return t * n;
 	}
+	friend std::ostream& operator<<(std::ostream&, Time&);
 };

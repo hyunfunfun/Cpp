@@ -40,3 +40,8 @@ void Time::show() {
 	std::cout << "시간 : " << hours << std::endl;
 	std::cout << "분 : " << mins << std::endl;
 }
+
+std::ostream& operator<<(std::ostream& os, Time& t) {
+	os << t.hours << "시간" << t.mins << "분";
+	return os;
+}
